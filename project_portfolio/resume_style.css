@@ -1,17 +1,19 @@
 
 nav{
     
-        background-color: #275846;
+     background-color: #275846;
       overflow: hidden;
+     
       
 }
 nav a{
     align-content: first baseline;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     float: left;
     color: white;
+    display: inline-flex;
 }
 #Resume{
     text-align: center;
@@ -24,8 +26,8 @@ nav a{
     
 }
 #name{
-    background-color: rgba(155, 191, 191, 0.691);
-    color: rgb(0, 5, 5);
+    background-color: rgb(233, 252, 252);
+    color: rgb(2, 54, 54);
 
 }
 #tableO{
@@ -33,14 +35,14 @@ nav a{
     margin: 0 auto;
     border-collapse: collapse;
    
-    background-color: rgb(185, 184, 179);
+    background-color: rgb(246, 247, 240);
 }
 #tableE {
  width: 100%;
  margin: 0 auto;
  border-collapse: collapse;
  
- background-color: rgb(208, 222, 231);
+ background-color: rgb(234, 227, 228);
 
  padding: 100px;
 
@@ -51,5 +53,26 @@ footer{
 }
 #G a{
     color: purple;
+}
+h2{
+    color: rgb(7, 67, 103);
+    
+}
+#I a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+html{
+    margin: 5px;
+    background-color: rgb(247, 248, 247);
+}
+h5{
+    color:rgb(7, 67, 103);
+}
+button{
+    color: rgb(76, 8, 76);
+    border: 2px solid rgb(49, 80, 217);
+    border-radius: 5px;
+    background-color: rgba(241, 226, 13, 0.944);
 }
 
